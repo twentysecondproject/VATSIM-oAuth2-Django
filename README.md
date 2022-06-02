@@ -37,5 +37,7 @@ pip install requests
 
 6.You should pretty much good to go, now when a user logins it creates a user and logs him in. If the user was already created it just logs him in. The user username is the CID.
 
+The current app is meant to be used in the production environment, if you use it in a development one, simply replace every https://auth.vatsim.net with https://auth-dev.vatsim.net, you can read more about this in the developer documentation on VATSIM Github.
+
 
 If you have any questions/concerns, please contact me at wm@portauprince.vatcar.net
