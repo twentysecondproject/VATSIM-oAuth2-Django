@@ -17,7 +17,7 @@ An implementation of VATSIm oAuth2 into a Django project. Please note that this 
 ```sh
   urlpatterns = [
     ...
-    path('', include("vatsim.urls")),
+    path('', include("VATSIM.urls")),
     ...
 ]
   ```
