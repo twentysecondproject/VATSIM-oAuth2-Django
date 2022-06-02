@@ -59,11 +59,11 @@ def exchange_code(code: str):
   headers = {
     'Content-Type': 'application/x-www-form-urlencoded'
   }
-  response = requests.post("https://auth-dev.vatsim.net/oauth/token", data=data, headers=headers)
+  response = requests.post("https://auth.vatsim.net/oauth/token", data=data, headers=headers)
   print(response)
   credentials = response.json()
   access_token = credentials['access_token']
-  response = requests.get("https://auth-dev.vatsim.net/api/user", headers={
+  response = requests.get("https://auth.vatsim.net/api/user", headers={
     'Authorization': 'Bearer %s' % access_token,
     'Accept': 'application/json'
   })
