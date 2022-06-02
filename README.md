@@ -13,7 +13,7 @@ An implementation of VATSIm oAuth2 into a Django project. Please note that this 
     ...
 ]
   ```
-3. Add this in your main `urls.py` file, under `urlpatterns`: Add this
+3. Add this in your main `urls.py` file, under `urlpatterns`: 
 ```sh
   urlpatterns = [
     ...
