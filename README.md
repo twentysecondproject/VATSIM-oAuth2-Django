@@ -1,5 +1,5 @@
 # VATSIM-oAuth2-Django
-An implementation of VATSIm oAuth2 into a Django project. Please note that this is just a Django app that has to be added to an exsisiting project. It is very simple because it uses the default Django user, which is optimal for a small website, but I suggest creating your own user model if the website is for an ARTCC/vACC or above.
+An implementation of VATSIm oAuth2 into a Django project. Please note that this is just a Django app that has to be added to an exsisiting project. It is very simple because it uses the default Django user, which is optimal for a small website, but I suggest creating your own user model if the website is for an ARTCC/vACC or above. In VATSIM's oAuth2 settings you have to set http(s):{yourdomain}/oauth2/login/redirect as redirect uri.
 
 
 # How to install
