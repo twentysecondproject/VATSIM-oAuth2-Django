@@ -40,4 +40,4 @@ pip install requests
 The current app is meant to be used in the production environment, if you use it in a development one, simply replace every https://auth.vatsim.net with https://auth-dev.vatsim.net, you can read more about this in the developer documentation on VATSIM Github.
 
 
-If you have any questions/concerns, please contact me at wm@portauprince.vatcar.net
+If you have any questions/concerns please submit an Issue here.
